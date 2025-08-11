@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './NavBar';
+import Navbar from './components/NavBar';
+import ExperienceSection from './components/Experience/ExperienceSection';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <h1>Hello, I'm Ayomide</h1>
       <p>Welcome to my portfolio site.</p>
+      <ExperienceSection />
     </div>
   );
 }
