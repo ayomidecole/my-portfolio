@@ -13,7 +13,7 @@ function ExperienceItem({ role, company, location, start, end, bullets = [], tag
           ))}
         </ul>
   
-        {tags.length > 0 && (
+        {2 (
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {tags.map((t, i) => (
               <span
